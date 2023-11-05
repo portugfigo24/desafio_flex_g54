@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container_box {
+    display:flex;
+
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100vh;
+    min-height: fit-content;
+    flex-direction: column;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    width: 75%;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    font-size: 45px;
+    font-family:'Roboto';
+}
+
+.texto-sec {
+    font-size: 16px;
+    font-family:'Roboto' ;
+    width: 30rem;
+    text-align: center;
+}
+
+.foto-usuario img {
+    border-radius: 60px;
+    border: 1.5px solid gray;
+}
+
+.logo img {
+    border-radius: 20px;
+}
+
+.usuario {
+    display: flex;
+    font-family: 'Roboto';
+    border-bottom: 1px solid #E8EBE4;
+    font-size:16px;
+    width:100%;
+    height: 9vh;
+    margin: 3px;
+}
+
+
+p {
+    font-size: 14px;
+}
+
+
+.nombre-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size:16px;
+    width:100%;
+}
+
+.foto-usuario {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icono-mensaje {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+.icono-menu {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.usuario-activo {
+    display:flex;
+    border-bottom: 1px solid #E8EBE4;
+}
+
+.mensaje {
+    font-family: 'Roboto';
+    font-size: 10px;
+    color:#BEC1BB;
+}
+
+.nuevo-chat {
+    display: flex;
+    border-bottom: 1px solid #E8EBE4;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.btn-chat {
+    display: flex;
+    font-family: 'Roboto';
+    width: 55%;
+    height: 45%;
+    align-items:  center;
+    justify-content: center;
+    background-color:#A491D2;
+    color:#efefef
+}
+
